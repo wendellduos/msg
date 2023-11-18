@@ -3,19 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Message - Wendel Duarte</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Entrar - Chat | wendeldu.art</title>
+    <link rel="stylesheet" href="./stylesheets/styles.css" />
+    <link rel="stylesheet" href="./stylesheets/login.css" />
   </head>
   <body>
-    <main id="login-container">
-      <h1>Fazer login</h1>
-      <p>Utilize credenciais temporários para iniciar um chat</p>
+    <main>
+      <h1>Chat</h1>
+      <p>Entre com os dados solicitados para iniciar</p>
 
-      <form action="user_page.php" method="post">
-        <label for="name">Nome de usuário</label>
-        <input type="text" name="name" id="name" placeholder="João" />
+      <form action="chat.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" placeholder="Ex.: João" />
         <input type="submit" value="Entrar" />
       </form>
     </main>
+    <script src="./scripts/login.js"></script>
   </body>
 </html>

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+
+:root {
+  --blue1: #121a27;
+  --blue2: #141c2b;
+  --blue3: #192741;
+  --blue4: #2e75d1;
+  --blue4-alt: #254977;
+  --blue5: #5b9bee;
+  --clear1: #dce2e7;
+  --clear2: #9dabb6;
+  --clear3: #5c6a75;
+  --yellow1: #d1b32e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
